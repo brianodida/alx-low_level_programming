@@ -2,21 +2,19 @@
 
 /**
  * more_numbers - prints 0 to 14 ten times
- * Return: Always 0
+ * followed by a new line.
  */
 void more_numbers(void)
 {
-	int num, a;
+	int i, j;
 
-	for (a + 0; a <= 9; a++)
+	for (i = 0; i <= 9; j++)
 	{
-		for (num = 0; num <= 14; num++)
+		for (j = 0; j <= 14; j++)
 		{
-			if (num > 9)
-			{
-				_putchar((num / 10) + '0');
-			}
-			_putchar((num % 10) + '0');
+			if (j > 9)
+				_putchar((j / 10) + '0');
+			_putchar((j % 10) + '0');
 		}
 		_putchar('\n');
 	}
